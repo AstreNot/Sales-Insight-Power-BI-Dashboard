@@ -1,7 +1,7 @@
 # Sales-Insight-Power-BI-Dashboard
 In the following projects, we are going to be performing an analysis on the performance of Sales at AtliQ Business Hardware Sales, India. I carried out this project by analyzing data from Codebasics AtliQ SQL open source file. MySQL was used to query the data from the database and imported into PowerBI where the actual analysis was carried out.
 
-Problem Statement
+# Problem Statement
 The goal of this analysis is to
 
 Determine the current market demand for products and how it varies by region/location.
