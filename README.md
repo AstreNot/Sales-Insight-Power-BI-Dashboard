@@ -68,20 +68,20 @@ Several structured queries were written to get the right tables and then saved a
 Several expressions and functions were made to arrive at the desired KPI or Metrics.
 The final dashboard consists of three (3) pages named:
 
-Key Insights
-Profit Insights
-Detailed Performance
+1. Key Insights
+2. Profit Insights
+3. Detailed Performance
 
-Features of the Report
-Key Insights
+## Features of the Report
+### Key Insights
 The first page is Key Insights and it contains information regarding overall revenue and sales performance of AtliQ Business Hardware Sales. In this page, we can see Total Revenue, Total Products Sold, Top Products, and also Revenue Trends from 1 October 2017 to 1 June 2020. this page let viewers know about the overall sales condition on AtliQ Hardware Business.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/1c5333f9-9d4c-4b0a-818e-57629967fa4e)
 
-Profit Insights
+### Profit Insights
 The second page is Profit Insights. It contains information regarding overall profits made and products performance. We can see Profit contribution by Markets, the top and bottom 6 performing products, overall profit margin, and also trends between revenue and profit.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/945bbda3-6b44-4787-b456-b55e360af368)
 
-Detailed Performance
+### Detailed Performance
 The last page is Detailed Performance. It contains information regarding the performance of each markets. We can see whether a store is outperforming or underperforming the targeted profit.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/89e85f64-bd26-45d9-b89d-37e4b809b1c8)
 
