@@ -52,7 +52,7 @@ Several structured queries were written to get the right tables and then saved a
 1. These dataset were imported into PowerBI desktop for analysis using the step below.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/b3bec909-30bd-4021-af5c-cfed21e2500c)
 
-2. Determining correlation between tables
+2. Determining correlation between tables. This step is necessary in order to have a structured transformed data.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/4db4c2f8-7e8b-4c7e-9163-1441816d5f7b)
 
 3. Transforming data in Power Query. This process includes checking for null values, inappropriate data types, difference in formats (in this case, there are few rows where the sales is in USD, unlike the rest of the data which is in INR).
