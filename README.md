@@ -4,21 +4,23 @@ In the following projects, we are going to be performing an analysis on the perf
 # Problem Statement
 The goal of this analysis is to
 
-Determine the current market demand for products and how it varies by region/location.
-Know the current sales performance and how it compares to past performance.
-identify the areas where sales performance is lacking or could be improved.
-To discover target markets or goods that have the greatest impact on sales success.
-Finally, the goal is to create data-driven plans that can aid in increasing sales, improving customer happiness, and driving corporate growth.
+1. Determine the current market demand for products and how it varies by region/location.
+2. Understand the current sales performance and how it compares to past performance.
+3. i=Identify the areas where sales performance is lacking or could be improved.
+4. To discover target markets or goods that have the greatest impact on sales success.
+5. Finally, the goal is to create data-driven plans that can aid in increasing sales, improving customer happiness, and driving corporate growth.
+
+# Tools Used
 Concepts used in this project: 
 MySQL (Select, alias, Views)
 
 PowerBI concepts like:
 
 importing data from SQL to PowerBI
-creating columns for calculations for dates, time, and duration
+creating columns for calculations for dates, time, and duration,
 Creating key performance indicators (KPIs) and other business calculations,
 Developing general DAX calculations that deal with text and numbers,
-Performed advanced DAX calculations for solving statistical measures and other mathematical formulas
+Performed advanced DAX calculations for solving statistical measures and other mathematical formulas,
 Data Modelling,
 Measures,
 filters,
@@ -26,9 +28,9 @@ tooltips,
 Page buttons,
 Data Visualization
 
-You can find a link to get started with installation and restoration of the database to your local machine. here:
-Data Transformation:
-Several structured queries were written to get the right tables and then saved as views in the Database on SQL Management studio. The tables and views are:
+
+# Data Extraction, Transformation, and Load (ETL)
+Several structured queries were written to get the right tables and then saved as views in the Database on MySQL Workbench. The tables and views are:
 Transactions Table
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/3eee9302-e290-4025-9134-eb01b62bf4da)
 
@@ -44,14 +46,13 @@ Date Table
 Markets Table 
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/d001a258-ecfa-4341-95b6-5bb5403c1232)
 
+## Step by step Process
 
-These dataset were then imported into PowerBI desktop for analysis using the step below.
+These dataset were imported into PowerBI desktop for analysis using the step below.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/b3bec909-30bd-4021-af5c-cfed21e2500c)
-
 
 Determining correlation between tables
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/4db4c2f8-7e8b-4c7e-9163-1441816d5f7b)
-
 
 Transforming data in Power Query. This process includes checking for null values, inappropriate data types, difference in formats (in this case, there are few rows where the sales is in USD, unlike the rest of the data which is in INR).
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/fc516bf9-44f1-42ea-b4d0-f3d5fbf479e2)
@@ -62,9 +63,9 @@ Writing several Dax and creating measures and calculated columns to get the righ
 Creating targets in a table named "Profit Target".
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/0612e4a9-ce43-428d-83ec-05f14383abf6)
 	
-Data Analysis and Visualization
+# Data Analysis and Visualization
 Several expressions and functions were made to arrive at the desired KPI or Metrics.
-I arrived at a report with three (3) pages named:
+The final dashboard consists of three (3) pages named:
 
 Key Insights
 Profit Insights
