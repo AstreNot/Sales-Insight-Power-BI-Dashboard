@@ -85,7 +85,7 @@ The second page is Profit Insights. It contains information regarding overall pr
 The last page is Detailed Performance. It contains information regarding the performance of each markets. We can see whether a store is outperforming or underperforming the targeted profit.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/89e85f64-bd26-45d9-b89d-37e4b809b1c8)
 
-Results
+# Results
 There is a positive trend of revenue going upwards until July 2018. The trend of revenue then goes downward until October 2020. The sudden decline in February 2020 could be caused by Covid-19 outbreak.
 
 Electricalsara Stores, located in Delhi NCR, has the highest revenue contribution which is 41.97%, followed by Electricalslytical, Located in Mumbai, at 5.04%. Electricalsara Stores is located in Delhi NCR which is the most populated region in India followed by Mumbai. Population variable, in this case, explains a high contribution percentage both stores had.
@@ -97,7 +97,7 @@ The highest profit margin percentage is taken by Surat with a value of 4.86%, hi
 In 2018, the company gains a total Net Profit of 9M and Total Revenue of 414M. While in 2019, the company gains a total Net Profit of 10M and Total Revenue of 336M. There is an increase of 11% in total net profit but a 20% decrease in total revenue. The decreased value in revenue and the increased value of net profit between 2018 and 2019 could be caused by the company efficiency in cutting products cost while maintaining products quality. Thus, AtliQ Business Hardware Sales in 2019 is better than 2018 despite the decrease in revenue.
 
 
-Recommendation
+# Recommendation
 There are no doubts that the AtliQ Business Hardware net profit is increasing slowly until February 2020. However, there is room for more improvements, especially in cutting production cost for the top 6 highest revenue products in order to increase the company's profit margin.
 
 Granting an appreciation token or benefits for stores that outperform the targeted profit target of 2-3% and slowly increasing the targeted profit. Benefits, like advertising a certain store or upgrading a normal store into a flagship store, will surely motivate stores while also increasing company's own sales.
@@ -108,5 +108,5 @@ Making a fresh ad campaign to influence buyers on company's branding, especially
 
 Understand Customers purchasing pattern by carrying out an analysis on this. This will tell what customers are buying, when they are buying and how to promote the goods to the customers.
 
-Thank you for reading.
-I am open for entry-level data analyst role. Feel free to contact me!
+## Thank you for reading. Feedbacks will be greatly appreciated
+## I am also open for entry-level data analyst role. Feel free to contact me!
