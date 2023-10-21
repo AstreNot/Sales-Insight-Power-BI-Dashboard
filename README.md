@@ -6,61 +6,62 @@ The goal of this analysis is to
 
 1. Determine the current market demand for products and how it varies by region/location.
 2. Understand the current sales performance and how it compares to past performance.
-3. i=Identify the areas where sales performance is lacking or could be improved.
+3. Identify the areas where sales performance is lacking or could be improved.
 4. To discover target markets or goods that have the greatest impact on sales success.
 5. Finally, the goal is to create data-driven plans that can aid in increasing sales, improving customer happiness, and driving corporate growth.
 
 # Tools Used
 Concepts used in this project: 
-MySQL (Select, alias, Views)
+1. MySQL Workbench
+2. Simple Analysis with SQL (Select, From, Where)
 
-PowerBI concepts like:
+PowerBI concepts :
 
-importing data from SQL to PowerBI
-creating columns for calculations for dates, time, and duration,
-Creating key performance indicators (KPIs) and other business calculations,
-Developing general DAX calculations that deal with text and numbers,
-Performed advanced DAX calculations for solving statistical measures and other mathematical formulas,
-Data Modelling,
-Measures,
-filters,
-tooltips,
-Page buttons,
-Data Visualization
+1. Importing data from MySQL to PowerBI,
+2. Creating columns for calculations for dates, time, and duration,
+3. Creating key performance indicators (KPIs) and other business calculations,
+4. Developing general DAX calculations that deal with text and numbers,
+5. Performed advanced DAX calculations for solving statistical measures and other mathematical formulas,
+6. Data Modelling,
+7. Measures,
+8. filters,
+9. tooltips,
+10. Page buttons,
+11. Data Visualization
 
 
 # Data Extraction, Transformation, and Load (ETL)
 Several structured queries were written to get the right tables and then saved as views in the Database on MySQL Workbench. The tables and views are:
-Transactions Table
+1. Transactions Table
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/3eee9302-e290-4025-9134-eb01b62bf4da)
 
-Customers Table 
+2. Customers Table 
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/b930e695-71ba-4014-b962-bdf4e29ff5f9)
 
-Product Table 
+3. Product Table 
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/aed865fe-f41f-433a-9e90-0fe7320bbded)
 
-Date Table
+4. Date Table
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/f94959b2-c970-4563-8aca-c23b0c0116b2)
 
-Markets Table 
+5. Markets Table 
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/d001a258-ecfa-4341-95b6-5bb5403c1232)
 
 ## Step by step Process
 
-These dataset were imported into PowerBI desktop for analysis using the step below.
+1. These dataset were imported into PowerBI desktop for analysis using the step below.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/b3bec909-30bd-4021-af5c-cfed21e2500c)
 
-Determining correlation between tables
+2. Determining correlation between tables
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/4db4c2f8-7e8b-4c7e-9163-1441816d5f7b)
 
-Transforming data in Power Query. This process includes checking for null values, inappropriate data types, difference in formats (in this case, there are few rows where the sales is in USD, unlike the rest of the data which is in INR).
+3. Transforming data in Power Query. This process includes checking for null values, inappropriate data types, difference in formats (in this case, there are few rows where the sales is in USD, unlike the rest of the data which is in INR).
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/fc516bf9-44f1-42ea-b4d0-f3d5fbf479e2)
 
-Writing several Dax and creating measures and calculated columns to get the right metrics for the Sales Performance analysis.
+4. Writing several Dax and creating measures and calculated columns to get the right metrics for the Sales Performance analysis.
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/e6360fdf-049d-449c-b8de-cbeb6781bf00)
 
-Creating targets in a table named "Profit Target".
+5. Creating targets in a table named "Profit Target".
 ![image](https://github.com/AstreNot/Sales-Insight-Power-BI-Dashboard/assets/112799855/0612e4a9-ce43-428d-83ec-05f14383abf6)
 	
 # Data Analysis and Visualization
